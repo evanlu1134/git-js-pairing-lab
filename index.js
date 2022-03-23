@@ -48,3 +48,12 @@ console.log("Q5---")
 console.log(multiply(3, 2))
 
 
+function add(num1, num2){
+    if(num1 === num2) {
+    return (num1 + num2) * 3; 
+    } else
+     { return num1 + num2
+console.log("Q6---")
+console.log(add(2, 4))
+    }
+}
