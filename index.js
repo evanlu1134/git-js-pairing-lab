@@ -29,9 +29,22 @@ function MultiplesOfThreeOrFive (){
 console.log("Q3---")
 MultiplesOfThreeOrFive ()
 
-function untilNum(n){
+
+// q 4
+function untilNum(n){ 
     for (let i = 1 ; i <= n; i++){
         console.log(i)
     }
 }
+console.log ("Q4---")
 untilNum(42)
+
+function multiply(num1, num2) {
+
+ return num1 * num2
+
+}
+console.log("Q5---")
+console.log(multiply(3, 2))
+
+
