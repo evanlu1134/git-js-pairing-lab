@@ -51,9 +51,22 @@ console.log(multiply(3, 2))
 function add(num1, num2){
     if(num1 === num2) {
     return (num1 + num2) * 3; 
-    } else
-     { return num1 + num2
-console.log("Q6---")
-console.log(add(2, 4))
+    } else {
+     return num1 + num2;
     }
 }
+console.log("Q6---")
+console.log(add(2, 4))
+
+function isNegative(n){
+    if (n < 0){
+        return true;
+    } else {
+        return false;
+    }
+   }
+        
+console.log ("Q7---")
+console.log(isNegative(3));
+
+    
