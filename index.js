@@ -16,3 +16,15 @@ function MultiplesOfThree(){
 }
 console.log("Q2---")
 MultiplesOfThree();
+
+// 3 or 5 mutlipes
+
+function MultiplesOfThreeOrFive (){
+    for (let i = 1; i < 100; i++){
+        if (i % 3 ===0 || i % 5 === 0) {
+            console.log(i);
+        }
+    }
+}
+console.log("Q3---")
+MultiplesOfThreeOrFive ()
