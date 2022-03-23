@@ -69,4 +69,9 @@ function isNegative(n){
 console.log ("Q7---")
 console.log(isNegative(3));
 
+function triangleArea(b, h){
+    return (b * h)/ 2;
+}
+console.log("Q8 ---")
+console.log(triangleArea(5, 7))
     
